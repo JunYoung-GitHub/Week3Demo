@@ -14,8 +14,8 @@
     <body>
         <h1>Hello World!</h1>
         <form method="post" action="hello"> <!This submits to the hello which is the xml>
-            First Name: <input type="text" name="firstname"><br>
-            Last Name: <input type="text" name="lastname"><br>
+            First Name: <input type="text" name="firstname" value="${firstname}"><br>
+            Last Name: <input type="text" name="lastname" value="${lastname}"><br>
             <input type="submit" value="Submit">
         </form>
     </body>
